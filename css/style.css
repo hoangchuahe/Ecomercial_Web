@@ -1,0 +1,187 @@
+body {
+    background-color: #ffffff;
+    height: 1200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#taga{
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navColor{
+    background-color: #fed100 !important;
+    margin: 0 auto;
+}
+
+.navbar-brand img {
+    position: relative;
+    border-radius: 0%;
+    max-height: 32px;
+    padding: 0 1rem;
+    bottom: 5px;
+}
+
+.nav-link{
+    color: #242424;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.imgSlider{ 
+    max-width: 500px;
+    margin-left: 20px;
+    height: 159px;
+}
+
+.imgSliderFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+#carouselExampleControls {
+    width: 65%;
+}
+
+.under-slider{
+    margin: 20px 0;
+}
+
+.under-slider > img {
+    width: 100%;
+}
+
+.showproduct{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 0 15px;
+    border-radius: 15px;
+    width: 22%;
+}
+
+.btnOrder{
+    width:70%;
+    margin: 0 auto 5px;
+    border-radius: 20px;
+}
+
+#nav-breadcrumb{
+    margin-top: 57px;
+}
+
+.ml125{
+    margin-left: 125px;
+}
+
+#product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product_content{
+    margin-left: 15px;
+    margin-top: 62px;
+    width: 50%;
+}
+
+.img-product-detail{
+    width: 100%;
+    height: 450px;
+}
+
+.shopping_cart{
+    position: relative;
+    margin-right: 50px;
+}
+
+.mount_product{
+    position: absolute;
+    right: 38px;
+    bottom: -5px;
+    border: 2px solid white;
+    border-radius: 56px;
+    padding: 0px 7px;
+    background-color: white;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (max-width:1290px) {
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .nav-link{
+        color: #242424;
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .imgSliderFlex{
+        display: none;
+    }
+
+    #carouselExampleControls{
+        width: 100%;
+        max-height: 500px;
+    }
+
+    .card{
+        width: 22%;
+        margin: 5px 0 5px 18px;
+    }
+}
+
+@media (max-width:800px){
+    #wrapper{
+        width: 100%;
+    }
+
+    .slider{
+        display: none;
+    }
+
+    .under-slider{
+        margin-top: 65px;
+    }
+
+    .card{
+        width: 13rem;
+        margin: 5px 0 5px 18px;
+    }
+    
+}
